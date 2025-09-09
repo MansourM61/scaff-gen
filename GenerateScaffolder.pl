@@ -356,14 +356,14 @@ sub CreateMessageLists {
 
 =pod
 
-=item CreateConstantsLits()
+=item CreateConstantsLists()
 
 Any required constants' statements are generated here to be written into the
 Scaffolder script.
 
 =cut
 
-sub CreateConstantsLits {
+sub CreateConstantsLists {
     $constants_list =
         "use constant LIST_GLUE_CHAR => " . "\""
       . LIST_GLUE_CHAR . "\""
@@ -441,7 +441,7 @@ sub CreateScaffolder {
     }
 
     &CreateSampledContents;
-    &CreateConstantsLits;
+    &CreateConstantsLists;
     &CreateCommandsLists;
     &CreateMessageLists;
 
