@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "streetsidesoftware.code-spell-checker",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "ms-vscode.test-adapter-converter",
+        "hbenl.vscode-test-explorer",
+        "evondev.indent-rainbow-palettes",
+        "formulahendry.code-runner",
+        "actboy168.extension-path",
+        "richterger.perl",
+        "jorol.perl-completions",
+        "nihilus118.perl-debugger",
+        "bscan.perlnavigator",
+        "d9705996.perl-toolbox",
+        "chrmarti.regex"
+    ]
+}

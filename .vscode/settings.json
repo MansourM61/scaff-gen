@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[perl]": {
+        "editor.defaultFormatter": "bscan.perlnavigator"
+    },
+}
