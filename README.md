@@ -1,9 +1,7 @@
- 
-*   [Generate Scaffolding Script](#Generate-Scaffolding-Script)
-    *   [Version](#Version)
-    *   [Author](#Author)
-    *   [LICENCE](#LICENCE)
-
+- [Generate Scaffolding Script](#Generate-Scaffolding-Script)
+  - [Version](#Version)
+  - [Author](#Author)
+  - [LICENCE](#LICENCE)
 
 # Generate Scaffolding Script
 
@@ -15,11 +13,11 @@ This script samples a project folder and creates a script to replicate the proje
 
 Mandatory _\-i_ is used to point to the source folder to be sampled. By default, the output script is **Scaffolder.pl**, if needed use _\-o_ option to change the script name. If this script is also needed to be included in the project, use -_\--add-gen-scaf_ option.
 
-#### $ReadTextFile($file\_name)
+#### $ReadTextFile($file_name)
 
 Reads an entire text file and returns the content.
 
-#### $ReadBinaryFile($file\_name)
+#### $ReadBinaryFile($file_name)
 
 Reads an entire binary file and returns the content.
 
@@ -43,9 +41,9 @@ All the guidelines and messages to be shown at the end of scaffolder script are 
 
 Any required constants' statements are generated here to be written into the Scaffolder script.
 
-#### AddGenScaffolder($out\_fh)
+#### AddGenScaffolder($out_fh)
 
-This script is also included in the scaffolder file with file handle of -_$out\_fh_, so the end user can sample its project and generate a scaffolder.
+This script is also included in the scaffolder file with file handle of -_$out_fh_, so the end user can sample its project and generate a scaffolder.
 
 #### CreateScaffolder(@ARGS)
 

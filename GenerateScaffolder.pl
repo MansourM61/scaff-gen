@@ -634,11 +634,11 @@ main:
 
 =back
 
-=head2 Version
+=head2 VERSION
 
-00.02.00.a
+00.02.01.a
 
-=head2 Author
+=head2 AUTHOR
 
 Mojtaba Mansour Abadi
 
@@ -1096,11 +1096,15 @@ main: {
 
 =head2 Version
 
-00.01.00.a
+00.02.01.a
 
 =head2 Author
 
 Mojtaba Mansour Abadi
+
+=head2 LICENCE
+
+This program is licenced under MIT License.
 
 =cut
 
