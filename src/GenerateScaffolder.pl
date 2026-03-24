@@ -15,6 +15,8 @@ default, the output script is B<Scaffolder.pl>, if needed use I<-o> option to
 change the script name.
 If this script is also needed to be included in the project, use
 -I<--add-gen-scaf> option.
+The script is supposed to run with typical Perl installation and does not need
+extra packages.
 
 =over
 
@@ -413,7 +415,6 @@ the file.
 =cut
 
 sub CreateScaffolder {
-
     my $output_script = ( +OUTPUT_FILE_NAME );
 
     my $include_gen_scaf = 0;
@@ -622,6 +623,9 @@ FILE_CONTENT
 # main entry of the script
 main:
 {
+    say "Generate Scaffolder Script";
+    say "Version 01.00.00\n";
+
     &CreateScaffolder(@ARGV);
 }
 
@@ -636,7 +640,7 @@ main:
 
 =head2 VERSION
 
-00.02.01.a
+01.00.00.a
 
 =head2 AUTHOR
 
@@ -1082,6 +1086,9 @@ __HEREDOC_SECTION__
 ################################################################################
 # main entry of the script
 main: {
+    say "Generate Scaffolder Script";
+    say "Version 01.00.00\n";
+
     &SetupProject(@ARGV);
 }
 
@@ -1096,7 +1103,7 @@ main: {
 
 =head2 Version
 
-00.02.01.a
+01.00.00.a
 
 =head2 Author
 
