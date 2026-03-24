@@ -1,8 +1,17 @@
-- [Generate Scaffolding Script](#generate-scaffolding-script) - [$ReadTextFile($file_name)](#readtextfilefile_name) - [$ReadBinaryFile($file_name)](#readbinaryfilefile_name) - [wanted()](#wanted) - [CreateSampledContents()](#createsampledcontents) - [CreateCommandsLists()](#createcommandslists) - [CreateMessageLists()](#createmessagelists) - [CreateConstantsLits()](#createconstantslits) - [AddGenScaffolder($out_fh)](#addgenscaffolderout_fh) - [CreateScaffolder(@ARGS)](#createscaffolderargs)
-  - [Instruction](#instruction)
-  - [Version](#version)
-  - [Author](#author)
-  - [LICENCE](#licence)
+- [Generate Scaffolding Script](#generate-scaffolding-script)
+  - [$ReadTextFile($file_name)](#readtextfilefile_name)
+  - [$ReadBinaryFile($file_name)](#readbinaryfilefile_name)
+  - [wanted()](#wanted)
+  - [CreateSampledContents()](#createsampledcontents)
+  - [CreateCommandsLists()](#createcommandslists)
+  - [CreateMessageLists()](#createmessagelists)
+  - [CreateConstantsLits()](#createconstantslits)
+  - [AddGenScaffolder($out_fh)](#addgenscaffolderout_fh)
+  - [CreateScaffolder(@ARGS)](#createscaffolderargs)
+- [Instruction](#instruction)
+- [Version](#version)
+- [Author](#author)
+- [LICENCE](#licence)
 
 # Generate Scaffolding Script
 
@@ -69,7 +78,7 @@ perl GenerateScaffolder.pl -i<project/folder> -o<output/script/name> --add-gen-s
 
 ## Version
 
-00.02.00.a
+01.00.00
 
 ## Author
 
